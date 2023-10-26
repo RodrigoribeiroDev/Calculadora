@@ -1,0 +1,44 @@
+body{
+    background-color: cadetblue;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    align-items: center;
+   left: 36%;
+   top: 20%;
+}
+
+.container{
+    background-color: brown;
+    border: 10px solid rgb(3, 3, 4);
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: large;
+}
+
+#resultado{
+    background-color: rgb(246, 247, 248);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    padding: 4px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: sans-serif;
+    width: 100px;
+    position: absolute;
+    left: 45%;
+}

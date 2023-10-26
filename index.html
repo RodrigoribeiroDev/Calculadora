@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluladora</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+    <h1>Calculadora</h1>
+    
+    <div class="container">
+        
+         <div><p id="resultado"></p></div>
+        
+        <div>
+            <table><tr>
+
+                <td><button class="btn-delet" 
+                    onclick="apagar()"
+                    >C</button></td>
+
+                <td><button class="btn-back" 
+                    onclick="back()"
+                    ><</button></td>
+
+                <td><button class="btn" onclick="insert('%')">%</button></td>
+                <td><button class="btn" onclick="insert('/')">/</button></td>
+                <td><button class="btn" onclick="insert('*')">X</button></td>
+                <td><button class="btn" onclick="insert('-')">-</button></td>
+                <td><button class="btn" onclick="insert('+')">+</button></td>
+
+                <td><button class="btn" 
+                    onclick="calcular()"
+                    >=</button></td>
+
+                <td><button class="btn" onclick="insert(',')">,</button></td>
+            </tr></table>
+            <table>
+                <tr>
+                    <td><button id="btnNum" onclick="insert('9')">9</button></td>
+                    <td><button id="btnNum" onclick="insert('8')">8</button></td>
+                    <td><button id="btnNum" onclick="insert('7')">7</button></td>
+                    <td><button id="btnNum" onclick="insert('6')">6</button></td>
+                    <td><button id="btnNum" onclick="insert('5')">5</button></td>
+                    <td><button id="btnNum" onclick="insert('4')">4</button></td>
+                    <td><button id="btnNum" onclick="insert('3')">3</button></td>
+                    <td><button id="btnNum" onclick="insert('2')">2</button></td>
+                    <td><button id="btnNum" onclick="insert('1')">1</button></td>
+                    <td><button id="btnNum" onclick="insert('0')">0</button></td>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
